@@ -5,6 +5,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <Authors>Hesham Ouda</Authors>
+    <Company>FHNW</Company>
+    <Product>Tutorial</Product>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonAdminLib\PersonAdminLib.csproj" />
+  </ItemGroup>
 
 </Project>
